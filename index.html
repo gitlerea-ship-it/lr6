@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене та мою улюблену команду NAVI</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            background-color: #1a1a1a;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+            border-top: 5px solid #fff200; /* Фірмовий жовтий колір NAVI */
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #fff200;
+            font-size: 2.5rem;
+        }
+        .header p {
+            margin: 5px 0 0 0;
+            color: #aaa;
+            font-style: italic;
+        }
+        .content-layout {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .profile-photo {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+        }
+        .profile-photo img {
+            width: 100%;
+            max-width: 220px;
+            border-radius: 50%;
+            border: 4px solid #fff200;
+            object-fit: cover;
+        }
+        .bio-data {
+            flex: 2;
+            min-width: 300px;
+        }
+        h2 {
+            color: #fff200;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .info-table td {
+            padding: 8px 0;
+            vertical-align: top;
+        }
+        .info-table td.label {
+            font-weight: bold;
+            color: #fff200;
+            width: 140px;
+        }
+        .about-section {
+            line-height: 1.6;
+            color: #ddd;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #333;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Візитна Картка</h1>
+        <p>Коротка автобіографія та хобі</p>
+    </div>
+
+    <div class="content-layout">
+        <!-- Блок з фотографією -->
+        <div class="profile-photo">
+            <img src="https://unsplash.com" alt="Моє фото">
+            <p style="margin-top: 12px; font-size: 0.9rem; color: #aaa;">Вболівальник NAVI з великим стажем 🎯</p>
+        </div>
+
+        <!-- Блок з інформацією (Резюме / Автобіографія) -->
+        <div class="bio-data">
+            <h2>Основна інформація</h2>
+            <table class="info-table">
+                <tr>
+                    <td class="label">Ім'я та Прізвище:</td>
+                    <td>Влад Меланич</td>
+                </tr>
+                <tr>
+                    <td class="label">Рід діяльності:</td>
+                    <td>Студент / Розробник-початківець</td>
+                </tr>
+                <tr>
+                    <td class="label">Захоплення:</td>
+                    <td>Кіберспорт, волейбол, футбол</td>
+                </tr>
+                <tr>
+                    <td class="label">Контакти:</td>
+                    <td>vlad-navi@example.com</td>
+                </tr>
+            </table>
+
+            <h2>Про себе та моє захоплення</h2>
+            <div class="about-section">
+                <p>
+                    Привіт! Я цікавлюся сучасними веб-технологіями, програмуванням та активно стежу за світом комп'ютерного спорту. 
+                    Також я люблю активний відпочинок і регулярно граю у волейбол та футбол.
+                </p>
+                <p>
+                    Моя найулюбленіша кіберспортивна команда — <strong>Natus Vincere (NAVI)</strong>. Я щиро вболіваю за «Народжених Перемагати» вже багато років, особливо уважно спостерігаючи за їхніми складами з Counter-Strike та Dota 2. Мене надихає їхня командна дисципліна, воля до перемоги та неймовірні тактичні камбеки.
+                </p>
+                <p>
+                    У вільний час я поєдную перегляд турнірів, тренування на майданчику та розвиток навичок верстки, щоб у майбутньому створювати корисні веб-ресурси.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Влад Меланич. Створено в межах лабораторної роботи №6.
+    </div>
+</div>
+
+</body>
+</html>
